@@ -8,8 +8,13 @@ const app = express();
   "assigned to": "",
   "created by": "",
   "due": ""
-  
-}]
+},
+{  "id": 2,
+  "description": "desc",
+  "title": "title",
+  "assigned to": "assigned",
+  "created by": "created",
+  "due": "14/11/1998"}]
 
 
 app.get('/getAll', (req, res) => response.send('fetch'));
