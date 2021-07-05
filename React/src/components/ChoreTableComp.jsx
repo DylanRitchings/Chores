@@ -17,6 +17,7 @@ const ChoreTableComp = (props) => {
         <ChoreComp/>
       </tbody>
     </Table>
+    
   );
 }
 export default ChoreTableComp;
