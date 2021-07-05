@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-[{
+let chores = [{
   "id": 1,
   "description": "",
   "title": "",
@@ -17,13 +17,13 @@ const app = express();
   "due": "14/11/1998"}]
 
 
-app.get('/getAll', (req, res) => response.send('fetch'));
+app.get('/getAll', (res) => response.send(chores));
 
-app.get('/getById', (req, res) => response.send('fetch'));
+app.get('/getById', (req, res) => response.send(chores));
 
-app.post('/create', (req, res) => response.send('create'));
+app.post('/create', (req, res) => response.send());
 
-app.put('/replace', (req, res) => response.send('replace'));
+// app.put('/replace', (req, res) => response.send(chores));
 
 app.patch('/update', (req, res) => response.send('update'));
 
