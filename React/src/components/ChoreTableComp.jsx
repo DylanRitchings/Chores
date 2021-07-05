@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
-import { Table } from 'reactstrap';
+import { Table,Input } from 'reactstrap';
 import ChoreComp from './ChoreComp'
 const ChoreTableComp = (props) => {
   return (
@@ -9,7 +9,8 @@ const ChoreTableComp = (props) => {
         <tr>
           <th>Chore</th>
           <th>Due</th>
-          <th>Assigned</th>
+          <th>Assigned to</th>
+
         </tr>
       </thead>
       <tbody>

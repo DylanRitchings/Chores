@@ -11,7 +11,8 @@ const ChorePageComp = (props) => {
         <Button>Completed</Button></Col>
         <Col/>
         <Col/>
-        <Col/>
+        <Col><Button>New Chore</Button>
+        <Button>Complete Chore</Button></Col>
       </Row>
       <Row>
         <ChoreTableComp/>
